@@ -5,8 +5,11 @@
   "main": "simple-server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-     "start": "node simple-server"
+    "start": "node simple-server"
   },
   "author": "Kowsick_ram",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
